@@ -24,7 +24,21 @@ The model was trained on a labeled dataset of brain MRI scans using a Convolutio
 
 ##  Dataset
 
-The dataset was sourced from [Kaggle - Brain Tumor Classification (MRI)](https://www.kaggle.com/code/shiratorizawa/brain-tumor-detection-using-cnn) and contains labeled MRI scans divided into 4 categories.
+
+### image dimension   
+    giloma_tumor : 512 X 512  
+    meningioma_tumor : 512 X 512  
+    no_tumor : 350 X 350  
+    pitutiary_tumor : 512 X 512  
+
+### training dataset  
+    tota_data  : 826(giloma_tumor) + 822(meningioma_tumor) + 395(no_tumor) + 827(pitutiary_tumor) = 2870 (total data point)  
+
+
+### validation dataset   
+    total_data  : 165(giloma_tumor) + 164(meningioma_tumor) + 79(no_tumor) + 165(pitutiary_tumor) = 573(total data point)  
+
+
 
 ##  Model Architecture
 
