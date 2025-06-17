@@ -42,11 +42,7 @@ The model was trained on a labeled dataset of brain MRI scans using a Convolutio
 
 ##  Model Architecture
 
-- Input Layer: 150x150 pixel grayscale images
-- 5 Convolutional Layers (with ReLU + MaxPooling + Batch Normalization + Kernel Reguarizer + Dropouts)
-- Flatten Layer
-- Dense Layers with Dropout
-- Output Layer: Softmax activation (4 classes)
+![Artichecture](./artichecture.jpg)
 
 ## 📊 Performance
 
